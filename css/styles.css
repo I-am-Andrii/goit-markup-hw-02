@@ -8,7 +8,7 @@
 --footer-text-color:#E7E9FC;
 }
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .header {
 }
@@ -33,8 +33,6 @@ text-transform: uppercase;
 color: var(--main-title-color);
 }
 .accent{
-font-family: 'Raleway';
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -69,7 +67,6 @@ color: var(--main-title-color);
 .header-address{
 }
 .header-mail {
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -81,7 +78,6 @@ color: var(--second-title-color);
     color: var(--hover-focus-color);
 }
 .header-tel {
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -122,7 +118,7 @@ color: var(--text-color);
 
 .hero-btn:hover,
 .hero-btn:focus{
-    color: var(--btn-color);
+    background-color: var(--hover-focus-color);
 }
 
 /*------- ABOUT----- */
@@ -187,8 +183,6 @@ color: var(--main-title-color);
     border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -202,6 +196,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--second-title-color);
 }
+
+/*--------Footer-----*/
 .footer {
 background: var(--main-title-color);
 }
@@ -218,23 +214,21 @@ text-transform: uppercase;
 color: var(--footer-logo-color);  
 }
 .footer-accent{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--btn-color);  
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-color);  
 }
 .footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--footer-text-color) ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color) ;
 }
 
 /*-------------Portfolio-------------*/
@@ -266,12 +260,13 @@ color: var(--footer-text-color) ;
 .main-list {
 }
 .main-btn {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-letter-spacing: 0.04em;
-color: var(--btn-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: var(--btn-color);
 }
 .main-btn:hover{
 background-color: var(--hover-focus-color);;
@@ -298,20 +293,18 @@ background-color: var(--hover-focus-color);;
 .image-item {
 }
 .image-caption {
-font-family: 'Roboto';
-font-style: normal
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--main-title-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
 }
 .image-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--second-title-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
 }
 .footer {
 }
