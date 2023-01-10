@@ -67,6 +67,8 @@ color: var(--main-title-color);
 .header-address{
 }
 .header-mail {
+font-family: inherit;
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -78,6 +80,8 @@ color: var(--second-title-color);
     color: var(--hover-focus-color);
 }
 .header-tel {
+font-family: inherit;
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -138,11 +142,11 @@ clip-path: inset(50%);
 margin: -1px;
 }
 .about-subtitle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--main-title-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
 }
 .about-text {
 font-weight: 400;
@@ -269,7 +273,12 @@ color: var(--footer-logo-color);
     color: var(--btn-color);
 }
 .main-btn:hover{
-background-color: var(--hover-focus-color);;
+background-color: var(--hover-focus-color);
+color: #FFFFFF;
+}
+.main-btn:focus{
+    background-color: var(--hover-focus-color);
+    color:var(--text-color);
 }
 
 .image {
