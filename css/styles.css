@@ -269,20 +269,20 @@ color: var(--footer-logo-color);
     font-size: 16px;
     line-height: 1.5;
     display: flex;
+    cursor: pointer;
     letter-spacing: 0.04em;
     color: var(--btn-color);
+    
 }
 .main-btn:hover{
-background-color: var(--hover-focus-color);
-color: #FFFFFF;
+background-color: var(--footer-logo-color);
 }
 .main-btn:focus{
     background-color: var(--hover-focus-color);
     color:var(--text-color);
 }
 
-.image {
-}
+
 .image-title {
 }
 .visually-hidden {
