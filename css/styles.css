@@ -275,7 +275,8 @@ color: var(--footer-logo-color);
     
 }
 .main-btn:hover{
-background-color: var(--footer-logo-color);
+background-color: var(--hover-focus-color);
+color:var(--text-color);
 }
 .main-btn:focus{
     background-color: var(--hover-focus-color);
